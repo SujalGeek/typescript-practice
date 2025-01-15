@@ -1,0 +1,13 @@
+Typescript does the static checking and do checking the type
+Static Checking :- The constantly written code is analysed by the IDE's
+Typescript trans plied into JavaScript (complied)
+It is development tools
+Still run on js
+
+There are many types
+Any
+Never
+unknown
+object
+void
+undefined
