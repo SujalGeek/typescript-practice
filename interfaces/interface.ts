@@ -8,8 +8,17 @@ interface User8 {
   // compusory to pass the value of coupanname and value
   getCoupon(coupanname: string, value: number): number
 }
+interface User8 {
+  githubToken: string;
+}
 
-const sujal55 : User8 = { dbId: 1, userId: 1, email: 'ab@c.com', startTrial: () => 'Trial Started' , startTrial2: () => 'Trial Started',
+interface Admin3 extends User8 {
+  role : 'admin' | 'ta' | 'learner'
+}
+
+
+const sujal55 : Admin3 = { githubToken:"github",dbId: 1, userId: 1, email: 'ab@c.com', startTrial: () => 'Trial Started' , startTrial2: () => 'Trial Started',
+  role: 'admin',
   getCoupon:(name:"hitesh", off:10) =>{
     return 10;
   }
